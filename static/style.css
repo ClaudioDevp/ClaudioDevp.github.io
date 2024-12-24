@@ -1,0 +1,190 @@
+body {
+    background-color: #363535;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Activa el scroll suave */
+}
+h1,h2 {
+    padding: 12px;
+    color: #fff;
+    background-color: #252427;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px #0006
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+
+
+
+}
+.t-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white ;
+}
+.t-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #252427;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px #0006;
+    max-width: 600px; 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #00bcd4; /* Efecto hover */
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh; /* Cada sección ocupa la pantalla completa */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobre-mi {
+    background-color: #252427;
+    color: #fff;
+}
+
+#educacion {
+    background-color: #1a1a1d;
+    color: #fff;
+}
+
+#habilidades {
+    background-color: #2d2d30;
+    color: #fff;
+}
+
+#contacto {
+    background-color: #333333;
+    color: #fff;
+}
+
+h4 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 50px; /* Tamaño del ícono */
+    height: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 50%; /* Opcional: redondear el ícono */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Efecto de sombra */
+}
+
+.icon img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el cursor */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Sombra más intensa */
+}
+.card-container {
+    display: flex; /* Usamos Flexbox */
+    flex-direction: row; /* Cambiamos la dirección a fila (horizontal) */
+    flex-wrap: wrap; /* Permite que las cards se ajusten a nuevas filas cuando no haya espacio suficiente */
+    justify-content: space-between; /* Distribuye las cards de manera uniforme */
+    gap: 20px; /* Espacio entre las cards */
+    margin-top: 20px; /* Separar el contenedor de la parte superior */
+}
+/* Estilo para la card */
+.card {
+    width: 300px; /* Ancho de la card */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow: hidden; /* Evita que los elementos se salgan de la card */
+    background-color: #252427; /* Fondo blanco */
+    transition: transform 0.3s ease; /* Animación de transformación */
+}
+
+/* Estilo para el contenido de la card */
+.card-content {
+    padding: 20px;
+}
+.card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; /* Alineamos el texto a la derecha */
+}
+/* Título de la card */
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #f7f5f5;
+}
+
+/* Descripción de la card */
+.card-description {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón */
+.card-button {
+    display: inline-block;
+    background-color: #1c1d1c; /* Color de fondo */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado */
+    text-decoration: none; /* Quitar subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Animación del color de fondo */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+.card-button:hover {
+    background-color: #45a049; /* Cambia el color cuando el cursor pasa */
+}
+
+/* Duración de la card */
+.card-duration {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 15px;
+}
+
+/* Efecto al pasar el cursor sobre la card */
+.card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño ligeramente */
+}
+
