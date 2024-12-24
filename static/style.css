@@ -64,22 +64,49 @@ section {
 }
 
 #sobre-mi {
-    background-color: #252427;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
+    background-color: #252427;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px #0006;
+    max-width: 600px; 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
+    color: #fff;
+
 }
 
 #educacion {
-    background-color: #1a1a1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #252427;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px #0006;
+    max-width: 1500px; 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
     color: #fff;
 }
 
-#habilidades {
-    background-color: #2d2d30;
-    color: #fff;
-}
 
 #contacto {
-    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #252427;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px #0006;
+    max-width: 670px; 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
     color: #fff;
 }
 
@@ -188,3 +215,56 @@ p, ul {
     transform: scale(1.05); /* Aumenta el tamaño ligeramente */
 }
 
+#habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #252427;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px #0006;
+    max-width: 600px; 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .habilidades-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .habilidad {
+    background-color: #252427;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .habilidad:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .habilidad-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #635f5e #252427; 
+  }
+  
