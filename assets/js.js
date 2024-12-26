@@ -10,7 +10,7 @@ function copyemail() {
 
       setTimeout(() => {
         notification.style.display = "none";
-      }, 2000);
+      }, 1000);
     });
   }
   function copynumero() {
@@ -23,6 +23,6 @@ function copyemail() {
 
       setTimeout(() => {
         notification.style.display = "none";
-      }, 2000);
+      }, 1000);
     });
   }
