@@ -1,7 +1,7 @@
 function copyemail() {
 
     const email = "claadbricar@gmail.com";
-    const numero = "+56948780950";
+    const numero = "+56929504076";
     navigator.clipboard.writeText(email).then(() => {
 
       const notification = document.getElementById("notification-email");
